@@ -1,0 +1,100 @@
+.container{width:1200px; max-width:none!important;}
+
+
+
+.btn{
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 1800px;
+}
+
+.fas{
+    color: black;
+}
+
+.plusBtn{
+    background-color: white;
+}
+
+.liveBtn{
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 50px;
+}
+
+.btn_offcanvas{
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    width: 40px;
+    height: 40px;
+}
+
+
+img{
+    width: 100px;
+}
+
+
+
+
+
+
+
+.map {
+    z-index: 0;
+    height: 963px;
+    width: 100%;
+}
+
+
+/* 파일 선택 버튼 스타일링 */
+.file-label {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+/* 파일 입력 필드 숨김 */
+input[type="file"] {
+    display: none;
+}
+
+
+.download_modal{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    top: 25%;
+    left:25%;
+    display: none;
+    
+}
+
+
+.modal_close, .primary, .satellite, .hybrid, .giheung, .cheoin, .suji, .form-select{
+    cursor: pointer;
+}
+
+.btn_close{
+    position: relative;
+}
+
+
+.offcanvas-backdrop {
+    width: 1px;
+    height: 1px;
+}
+
+.table-condensed{
+    width: 100%;
+}
+
+.datepicker-inline{
+    width: 100%;
+}
